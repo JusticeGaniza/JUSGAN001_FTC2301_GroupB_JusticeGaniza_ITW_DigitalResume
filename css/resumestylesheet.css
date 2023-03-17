@@ -4,118 +4,192 @@
 --cambridge-blue: #7a9e7eff;
 --indian-red: #c1666bff;
 --mountbatten-pink: #ac80a0ff; */
+  header {
+      position: relative;
+      background-color: #004777ff;
+      padding: 200px;
+      font-family: 'Noto Sans Symbols', sans-serif;
+  }
 
-header {
-    position: relative;
-    background-color: #004777ff;
-    padding: 200px;
-}
+  .profileimage img {
 
-.profileimage img {
+          max-width: 250px;
+          border-radius: 100%;
+          box-sizing: border-box;
+          position: absolute;
+          top: 75px;
+          left: 15px;
+          
+  }
 
-        max-width: 250px;
-        border-radius: 100%;
-        box-sizing: border-box;
-        position: absolute;
-        top: 75px;
-        left: 15px;
-        
-}
+  .nameprofession {
+      position: absolute;
+      right: 200px;
+      top: 30px;
+      margin: 0;
+      padding: 0;
+      max-width: 500px;
+      color: #f4faffff;
+      text-align: center;
+      font-size: 1.7em;
+  }
 
-.nameprofession {
-    position: absolute;
-    right: 200px;
-    top: 30px;
+  .nameprofession h1 h2 p {
     margin: 0;
-    padding: 0;
-    max-width: 500px;
+  }
+
+  .githublinkhead img {
+    max-width: 70px;
+    position: absolute;
+    right: 80px;
+    top: 220px;
+  }
+  .contactlink a {
+    width: 650px;
+    height: 650px;
+    color: #f4faffff;
+  }
+
+  .contactlink img {
+    max-width: 70px;
+    position: absolute;
+    right: 80px;
+    top: 100px;
+  }
+
+
+  body {
+      
+      background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+      margin: 0; 
+  }
+
+  .content {
+      position: relative;
+      font-family: 'Noto Sans Symbols', sans-serif;
+
+  }
+
+  .navbar {
+
+      width: 100%;
+      margin: 0 auto;
+      font-family: 'Noto Sans Symbols', sans-serif;
+    
+    }
+    
+    nav {
+    
+      background: #004777ff;
+    
+    }
+    
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      
+    }
+    
+    nav li {
+      border-style: solid;
+      border-color: rgb(0, 34, 56);
+      flex: 1 1 0;
+      text-align: center;
+
+    }
+
+    .educationbutton {
+      border-top-width: 6px;
+    }
+
+  .skillsbutton {
+    border-bottom-width: 6px;
+  }
+    
+    nav a {
+      text-decoration: none;
+      color: #E6FFF8;
+      display: block;
+      padding: 10px;
+    }
+    
+    nav a:hover {
+      background-color: rgba(72, 182, 255, 0.377);;
+    }
+
+  .education_box {
+      margin-bottom: 25px;
+      padding: 100px;
+  }
+
+  .experience_box {
+    margin-bottom: 25px;
+    padding: 100px;
+  }
+  .skills {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .skills li {
+    list-style: none;
+    display: inline;
+    text-align: center;
+
+  }
+
+  .skills img {
+    max-width: 200px;
+  }
+
+  .contact {
+    background-color: #004777ff;
     color: #f4faffff;
     text-align: center;
-    font-size: 1.7em;
-}
-
-.contactlink {
-  max-width: 150px;
-  position: absolute;
-  right: 40px;
-  top: 130px;
-
-}
-
-.contactlink a {
-  width: 150px;
-  height: 150px;
-}
-
-.contactlink a img {
-  max-width: 150px;
-}
-
-body {
-    
-    background-image: url("https://www.transparenttextures.com/patterns/arches.png");
-    margin: 0; 
-}
-
-.content {
-    position: relative;
     font-family: 'Noto Sans Symbols', sans-serif;
+    font-size: 40px;
 
+  }
+
+  .contact img {
+    max-width: 100px;
+
+  }
+
+
+
+@media only screen and (min-width: 768px) {
+
+
+  .contactlink i {
+    max-width: 800px;
+    position: absolute;
+    right: 100px;
+    top: 160px;
+  
+  }
+
+  .contact {
+    font-size: 30px;
+  }
+
+  
 }
 
-.navbar {
+@media only screen and (min-width: 1440px) {
+  
+  .nameprofession {
+    position: absolute;
+    right: 450px;
+    top: 30px;
+  }
 
-    width: 100%;
-    margin: 0 auto;
-  
-  }
-  
-  nav {
-  
-    background: #004777ff;
-  
-  }
-  
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  .eande {
     display: grid;
-    
-  }
-  
-  nav li {
-    border-style: solid;
-    border-color: rgb(0, 34, 56);
-    flex: 1 1 0;
-    text-align: center;
-
+    grid-template-columns: 1fr 1fr;
   }
 
-  .educationbutton {
-    border-top-width: 6px;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #E6FFF8;
-    display: block;
-    padding: 10px;
-  }
-  
-  nav a:hover {
-    background-color: rgba(72, 182, 255, 0.377);;
-  }
-
-.education_box {
-    margin-bottom: 25px;
-}
-
-.skills {
-
-}
-
-.contact {
-  background-color: #004777ff;
 
 }
