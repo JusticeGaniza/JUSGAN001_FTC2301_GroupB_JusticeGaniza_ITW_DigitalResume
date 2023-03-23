@@ -64,6 +64,8 @@
       margin: 0; 
   }
 
+  
+
   .content {
       position: relative;
       font-family: 'Noto Sans Symbols', sans-serif;
@@ -173,6 +175,17 @@
 
   .contact {
     font-size: 30px;
+  }
+
+  .wrapper {
+    display: flex;
+    position: relative;
+  }
+
+  .wrapper .navbar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
   }
 
   
