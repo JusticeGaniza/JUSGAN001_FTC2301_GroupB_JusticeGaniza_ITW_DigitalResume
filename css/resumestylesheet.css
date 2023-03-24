@@ -121,14 +121,34 @@
       background-color: rgba(72, 182, 255, 0.377);;
     }
 
+    .eande {
+      
+      height: 1700px;
+    }
+
   .education_box {
       margin-bottom: 25px;
       padding: 100px;
+      border-style: solid;
+      border-color: rgb(0, 34, 56);
+      border-top-width: 50px;
+      border-left-width: 50px;
+      border-right-width: 50px;
+      border-bottom-width: 50px;
+      height: 1400px;
+
   }
 
   .experience_box {
     margin-bottom: 25px;
     padding: 100px;
+    border-style: solid;
+    border-color: rgb(0, 34, 56);
+    border-top-width: 50px;
+    border-left-width: 50px;
+    border-right-width: 50px;
+    border-bottom-width: 50px;
+    height: 1400px;
   }
   .skills {
     text-align: center;
@@ -160,50 +180,95 @@
 
   }
 
+  form {
+    border-style: solid;
+    border-color: #E6FFF8;
+    border-width: 3px;
+    margin-left: 350px;
+    margin-right: 350px;
+  }
+
 
 
 @media only screen and (min-width: 768px) {
-
-
-  .contactlink i {
-    max-width: 800px;
-    position: absolute;
-    right: 100px;
-    top: 160px;
-  
+  .navbar {
+    font-size: 30px;
   }
+  
+.content {
+  font-size: 30px;
+}
 
   .contact {
     font-size: 30px;
   }
 
-  .wrapper {
-    display: flex;
-    position: relative;
-  }
-
-  .wrapper .navbar {
-    position: fixed;
-    width: 200px;
-    padding-bottom: 2400px;
-    
-  }
-
   
 }
 
+@media only screen and (min-width: 1024px) {
+  .eande {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1f;
+  }
+
+  .education_box {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+  }
+
+  .experience_box {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+  }
+
+  .content {
+    height: 2200px;
+  }
+
+}
+
 @media only screen and (min-width: 1440px) {
-  
+  .eande {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1f;
+  }
+
+  .education_box {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+  }
+
+  .experience_box {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+  }
+
   .nameprofession {
     position: absolute;
     right: 450px;
     top: 30px;
   }
 
-  .eande {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  .content {
+    height: 1700px;
   }
+
+
 
 
 }
