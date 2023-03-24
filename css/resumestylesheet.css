@@ -69,6 +69,7 @@
   .content {
       position: relative;
       font-family: 'Noto Sans Symbols', sans-serif;
+      height: 2300px;
 
   }
 
@@ -129,26 +130,14 @@
   .education_box {
       margin-bottom: 25px;
       padding: 100px;
-      border-style: solid;
-      border-color: rgb(0, 34, 56);
-      border-top-width: 50px;
-      border-left-width: 50px;
-      border-right-width: 50px;
-      border-bottom-width: 50px;
-      height: 1400px;
+      
 
   }
 
   .experience_box {
     margin-bottom: 25px;
     padding: 100px;
-    border-style: solid;
-    border-color: rgb(0, 34, 56);
-    border-top-width: 50px;
-    border-left-width: 50px;
-    border-right-width: 50px;
-    border-bottom-width: 50px;
-    height: 1400px;
+
   }
   .skills {
     text-align: center;
@@ -180,13 +169,7 @@
 
   }
 
-  form {
-    border-style: solid;
-    border-color: #E6FFF8;
-    border-width: 3px;
-    margin-left: 350px;
-    margin-right: 350px;
-  }
+
 
 
 
@@ -201,6 +184,14 @@
 
   .contact {
     font-size: 30px;
+  }
+
+  form {
+    border-style: solid;
+    border-color: #E6FFF8;
+    border-width: 3px;
+    margin-left: 250px;
+    margin-right: 250px;
   }
 
   
@@ -218,6 +209,13 @@
     grid-column-end: 1;
     grid-row-start: 1;
     grid-row-end: 2;
+    border-style: solid;
+    border-color: rgb(0, 34, 56);
+    border-top-width: 50px;
+    border-left-width: 50px;
+    border-right-width: 50px;
+    border-bottom-width: 50px;
+    height: 1400px;
 
   }
 
@@ -226,6 +224,13 @@
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
+    border-style: solid;
+    border-color: rgb(0, 34, 56);
+    border-top-width: 50px;
+    border-left-width: 50px;
+    border-right-width: 50px;
+    border-bottom-width: 50px;
+    height: 1400px;
 
   }
 
@@ -233,6 +238,13 @@
     height: 2200px;
   }
 
+  form {
+    border-style: solid;
+    border-color: #E6FFF8;
+    border-width: 3px;
+    margin-left: 350px;
+    margin-right: 350px;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -266,6 +278,14 @@
 
   .content {
     height: 1700px;
+  }
+
+  form {
+    border-style: solid;
+    border-color: #E6FFF8;
+    border-width: 3px;
+    margin-left: 350px;
+    margin-right: 350px;
   }
 
 
